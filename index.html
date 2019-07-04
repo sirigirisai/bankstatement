@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../bootstrap/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="14_styles.css">
+    <title>bank statement </title>
+</head>
+
+<body>
+<h1 class="text-center"> Bank Statement</h1>
+<!-- Customer Details -->
+<section class="p-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input saikrishna="ctrl.invoice.customer_data.customer_name" type="text" class="form-control" placeholder="Account name">
+                </div>
+                <div class="form-group">
+                    <input saikrishna="ctrl.invoice.customer_data.account_number" type="text" class="form-control" placeholder="Account number">
+                </div>
+                </div>
+            </div>
+            <div class="col-md-4"> <!-- Empty --> </div>
+         
+        </div>
+    </div>
+</section>
+
+
+<!-- Items Table Section-->
+<section class="p-1">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                      <thead></thead>
+                        <tr>
+                            <th>Transaction Description</th>
+                            <th>Time & Date</th>
+                            <th>Debit</th>
+                            <th>Credit (&#8377;)</th>
+                            <th>balance (&#8377;) </th>
+                        </tr>
+                        <tr>
+                            <td>Refrence id :12345</td>
+                            <td>20/11/2018 12.30 pm</td>
+                            <td>300</td>
+                            <td>800</td>
+                            <td>90000</td>
+                        </tr>
+                        <tr>
+                            <td>Refrence id :12345</td>
+                            <td>20/11/2018 12.30 pm</td>
+                            <td>300</td>
+                            <td>800</td>
+                            <td>90000</td>
+                        </tr>
+                        <tr>
+                            <td>Refrence id :12345</td>
+                            <td>20/11/2018 12.30 pm</td>
+                            <td>300</td>
+                            <td>800</td>
+                            <td>90000</td>
+                        </tr>
+                        <tr>
+                            <td>Refrence id :12345</td>
+                            <td>20/11/2018 12.30 pm</td>
+                            <td>300</td>
+                            <td>800</td>
+                            <td>90000</td>
+                        </tr>
+                        <tr>
+                            <td>Refrence id :12345</td>
+                            <td>20/11/2018 12.30 pm</td>
+                            <td>300</td>
+                            <td>800</td>
+                            <td>90000</td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Buttons Section -->
+<section class="p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <button class="btn btn-warning" ng-hide="ctrl.editMode" ng-click="ctrl.printDoc()">Print</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</body>
+<!-- Body Ends -->
+<script src="../bootstrap/js/fontawesome-all.js" ></script>
+<script src="../bootstrap/js/jquery-3.2.1.min.js" ></script>
+<script src="../bootstrap/js/popper.min.js" ></script>
+<script src="../bootstrap/js/bootstrap.min.js" ></script>
+<script src="../bootstrap/js/mdb.min.js" ></script>
+<script src="../angular/angular.js" ></script>
+<script src="14_app.js" ></script>
+</html>
